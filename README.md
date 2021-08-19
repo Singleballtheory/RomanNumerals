@@ -24,20 +24,32 @@ function romanNumeral(input) {
 }
 romanNumeral(5)
 Expected Result :"V"
-
+`````
+`````
 Test:If input number is "2" the output is "II"
-Code: 
+Code:
 function ones(input) {
 const ones = "I" ;
  return ones.repeat(input);
 }
 ones(2);
 Expected Result: "II"
+`````
+`````
+Test: If number is "4" the output is "IV"
+Code:
+function ones(input) {
+const ones = "I"
+if (input <= 3) {
+  return ones.repeat(input);
+}
+}
 
-Test:
 
 
 
+Co-authored-by: Chynna Lew <chynnalew@yahoo.com>
+Co-authored-by: Kevin Funez <kevin.funez315@gmail.com>
 
 
 have a const for roman numerals
