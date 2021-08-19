@@ -1,6 +1,6 @@
 For: Roman Numerals
 
-Test: "It should return "I" when the input nubmer is 1
+Test: "It should return "I" when the input number is 1"
 Code:
 function romanNumeral(input) {
   if (input === 1) {
@@ -10,11 +10,31 @@ function romanNumeral(input) {
 }
 romanNumeral(1)
 Expected Return: "I"
+````````
+````````
+Test: "It should return "V" when the input number is 5"
+Code:
+function romanNumeral(input) {
+  if (input === 1) {
+    return "I"
+  } else if (input === 5){
+    return "V"
+  }
+  return false
+}
+romanNumeral(5)
+Expected Result :"V"
 
+Test:If input number is "2" the output is "II"
+Code: 
+function ones(input) {
+const ones = "I" ;
+ return ones.repeat(input);
+}
+ones(2);
+Expected Result: "II"
 
-
-
-
+Test:
 
 
 
